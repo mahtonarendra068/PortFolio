@@ -63,9 +63,7 @@ const Navbar = () => {
                                     duration={500}
                                     offset={-70}
                                     activeClass='active'
-                                    >
-                                        
-                                    
+                                    > 
                                     {text}
                                     </Link>
                                     
@@ -83,7 +81,7 @@ const Navbar = () => {
             </div>
 
             {
-                !Menu && (
+                Menu && (
                     <div>
                         <ul className='md:hidden flex justify-center items-center flex-col h-screen relative top-2 font-semibold text-xl py-4'>
                             {/* <li>Home</li>
